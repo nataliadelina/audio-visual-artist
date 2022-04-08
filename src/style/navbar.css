@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 1rem;
+}
+
+nav a {
+    margin: 0 1.5rem;
+    transition: 0.3s ease-in;
+}
+
+nav a:hover {
+    border-bottom: 3px solid var(--accent);
+}
+
+.logo {
+    margin-right: 5rem;
+}

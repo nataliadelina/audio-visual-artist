@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+:root {
+  --bg-color: #0A0A0D;
+  --heading: #b6a5bb;
+  --accent: #6340b3;
+  --accent-second: #73ccd4;
+  --txt: #f1eded;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -12,4 +24,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  color: var(--txt);
+}
+
+a {
+  text-decoration: none;
+  color: var(--txt);
+}
+
+ul {
+  list-style-type: none;
 }
