@@ -5,7 +5,7 @@ import '../style/navbar.css'
 export default function Navbar() {
     return (
         <nav>
-            <NavLink to="/" activeclassname="active-link" className="logo">JS</NavLink>
+            <NavLink to="/" activeclassname="active-link" className="logo">juanSessions</NavLink>
             <div className="nav-links">
                 <NavLink to="/work" activeclassname="active-link">work</NavLink>
                 <NavLink to="/skills" activeclassname="active-link">skills</NavLink>

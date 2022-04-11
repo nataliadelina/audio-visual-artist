@@ -2,7 +2,6 @@ nav {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    padding: 1rem;
 }
 
 nav a {
@@ -16,4 +15,10 @@ nav a:hover {
 
 .logo {
     margin-right: 5rem;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-links {
+    align-self: flex-end;
 }

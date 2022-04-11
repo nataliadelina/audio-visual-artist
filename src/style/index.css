@@ -5,12 +5,13 @@
 }
 
 :root {
-  --bg-color: #0A0A0D;
+  --bg-color-dark: #0A0A0D;
+  --bg-color-light: #f0f3f3;
+  --txt-dark: #292828;
+  --txt-light: #f1eded;
   --heading: #b6a5bb;
-  --accent: #6340b3;
-  --accent-second: #73ccd4;
-  --txt: #f1eded;
-
+  --accent: #4fada1;
+  --accent-second: #6340b3;
 }
 
 html {
@@ -26,6 +27,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-color);
   color: var(--txt);
+  transition: 0.3s background-color ease-in-out, color 0.6s ease-in-out;
+}
+
+body.light {
+  background-color: var(--bg-color-light);
+  color: var(--txt-dark);
+  /* --image: url('../assets/icons/sun.png') */
+}
+
+body.dark {
+  background-color: var(--bg-color-dark);
+  color: var(--txt-light);
 }
 
 a {
