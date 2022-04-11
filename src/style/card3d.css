@@ -1,0 +1,153 @@
+.wrapper {
+    width: 100vw;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    perspective: 1000px;
+    background-color: #000;
+    background-image: url(../assets/images/darkBackground.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 35rem;
+    transform-style: preserve-3d;
+    background-color: rgba(40, 41, 54, 0.6);
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    -webkit-box-shadow: 0px 0px 0px 5px #444444, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #111a31, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.juan {
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.juan img {
+    width: 19rem;
+    height: 11rem;
+    border-radius: 50%;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+}
+
+.circle {
+    width: 9rem;
+    height: 9rem;
+    background: linear-gradient(to right, rgba(2, 2, 2, 0.75), rgba(94, 93, 93, 0.75));
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+    animation: rotation 11s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
+
+.info h1 {
+    display: flex;
+    color: #050505;
+    text-shadow: -2px -2px 0px rgba(104, 103, 103, 0.95);
+    justify-content: center;
+    align-items: center;
+    font-size: 2.35rem;
+    letter-spacing: 0.2rem;
+    transition: all 0.75s ease-out;
+}
+
+.info h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+    color: #979090;
+    transition: all 0.75s ease-out;
+}
+
+.songs {
+    display: flex;
+    justify-content: space-around;
+    transition: all 0.75s ease-out;
+}
+
+.songs button {
+    margin: 1rem 1.5rem;
+    padding: 0.5rem 2rem;
+    font-family: 'Stalinist One', cursive;
+    font-weight: bold;
+    color: #797878;
+    background: rgb(212, 211, 211);
+    border: 3.5px black solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button.active {
+    font-family: 'Stalinist One', cursive;
+    color: white;
+    background: #585858;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 1);
+    animation: pulse-white 2s infinite;
+}
+
+@keyframes pulse-white {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+}
+
+.play {
+    margin-top: 5rem;
+    transition: all 0.75s ease-out;
+}
+
+.play button {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem;
+    font-family: 'Stalinist One', cursive;
+    font-weight: bolder;
+    letter-spacing: 0.15rem;
+    color: white;
+    background: #020522;
+    border: 3px solid rgb(62, 63, 66);
+    border-radius: 30px;
+    cursor: pointer;
+}

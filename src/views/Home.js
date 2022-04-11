@@ -5,6 +5,7 @@ import playIcon from '../assets/icons/play-icon.png'
 import mainWork1 from '../assets/images/main-img-1.png'
 import mainWork2 from '../assets/images/main-img-2.png'
 import mainWork3 from '../assets/images/main-img-3.png'
+import Card3D from '../components/Card3D'
 
 export default function Home() {
     return (
@@ -26,6 +27,8 @@ export default function Home() {
                 <img src={mainWork2} alt="work" />
                 <img src={mainWork3} alt="work" />
             </div>
+
+            <Card3D />
 
             <div className="main-audio" id='main-audio'>
 
