@@ -1,0 +1,65 @@
+.main {
+    height: 42vw;
+    /* margin-top: 3rem; */
+}
+
+h1 {
+    padding-bottom: 1rem;
+}
+
+.main-img {
+    margin: 1rem 0;
+    margin-left: -5rem;
+}
+
+.playMainIcon {
+    position: relative;
+    left: 3.3rem;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.playIcon {
+    width: 2rem;
+    height: 2rem;
+    /* margin-left: auto; */
+    /* align-self: flex-end; */
+}
+
+#main-work {
+    min-width: 98vw;
+    height: 35vh;
+    margin-bottom: 8rem;
+}
+
+.main-work-video {
+    min-width: 15rem;
+    margin: 0 2.5rem;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+#main-work img {
+    /* margin: 0 2rem; */
+}
+
+.main-work-desc {
+    min-width: 15rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-work-desc h3 {
+    flex: 1;
+    /* margin-right: auto; */
+}
+
+
+.juan-studio-img {
+    min-width: 98vw;
+    height: 99vh;
+    background-image: url(../assets/images/studio-juan-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
