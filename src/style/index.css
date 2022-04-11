@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Palatino';
+  src: url('../assets/fonts/Palatino.ttf') format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +28,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  /* font-family: 'Palatino'; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-color);
