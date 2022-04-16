@@ -67,7 +67,7 @@ function Card3D() {
                     </div>
                     <div className="info">
                         <h1 className="title" style={{ transform: titleTransform }}>juanSessions</h1>
-                        <h3 style={{ transform: descriptionTransform }}> 3D Javascript </h3>
+                        <h3 style={{ transform: descriptionTransform }}> sounds & tracks </h3>
                         <div className="songs" style={{ transform: songsTransform }}>
                             <button className={songNumber === 0 ? "active" : ""} onClick={() => setSongNumber(0)}>FlowOrganically</button>
                             <button className={songNumber === 1 ? "active" : ""} onClick={() => setSongNumber(1)}>PsychoFunk</button>

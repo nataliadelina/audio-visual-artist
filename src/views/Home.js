@@ -8,6 +8,7 @@ import mainWork2 from '../assets/images/main-img-2.png'
 import mainWork3 from '../assets/images/main-img-3.png'
 import Card3D from '../components/Card3D'
 import '../style/home.css'
+import About from './About'
 
 export default function Home() {
     return (
@@ -22,7 +23,7 @@ export default function Home() {
                 </div>
 
                 <div className="main-img">
-                    <a href="">
+                    <a href="#">
                         <img src={playMainIcon} alt="dragon" className='playMainIcon' />
                     </a>
                     <img src={heroImg} alt="dragon" />
@@ -57,9 +58,13 @@ export default function Home() {
 
             <div className="main-audio" id='main-audio'>
 
+
+
             </div>
 
             <div className='parallax juan-studio-img' id="main-bg-img"></div>
+
+            <About />
         </div>
     )
 }
