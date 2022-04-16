@@ -72,6 +72,8 @@ export default function Home() {
 
             <div className='parallax juan-studio-img' id="main-bg-img"></div>
 
+
+
             <Contact />
         </div>
     )

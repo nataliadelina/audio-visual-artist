@@ -4,7 +4,8 @@ export default function
     () {
     return (
         <footer>
-            <p>2022 juanSessions</p>
+            <div className="divider"></div>
+            <p>© 2022 juanSessions</p>
         </footer>
     )
 }
