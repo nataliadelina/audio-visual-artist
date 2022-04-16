@@ -58,8 +58,8 @@ function Card3D() {
     }
 
     return (
-        <div className="wrapper">
-            <div className="container" onMouseMove={onMouseMove} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+        <div className="wrapper ">
+            <div className="container parallax" onMouseMove={onMouseMove} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                 <div className="card" style={{ transform, transition }} >
                     <div className="juan">
                         <div className="circle"></div>

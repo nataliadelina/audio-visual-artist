@@ -1,5 +1,21 @@
+.container {
+    width: 98vw;
+    height: 50vh;
+}
+
+.container-inner {
+    width: 30vw;
+    margin: 0 1rem;
+}
+
 .about {
+    height: 50vh;
     display: flex;
     justify-content: center;
+    color: rgb(215, 213, 213);
+    background-color: #000;
+}
 
+.contact {
+    height: 55vh;
 }

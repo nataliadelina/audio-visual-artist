@@ -13,12 +13,6 @@ nav a:hover {
     border-bottom: 3px solid var(--accent);
 }
 
-.logo {
-    margin-right: 5rem;
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
 .nav-links {
     align-self: flex-end;
 }

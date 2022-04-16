@@ -9,6 +9,8 @@ import mainWork3 from '../assets/images/main-img-3.png'
 import Card3D from '../components/Card3D'
 import '../style/home.css'
 import About from './About'
+import Contact from './Contact'
+import Skills from './Skills'
 
 export default function Home() {
     return (
@@ -58,13 +60,19 @@ export default function Home() {
 
             <div className="main-audio" id='main-audio'>
 
-
-
             </div>
 
             <div className='parallax juan-studio-img' id="main-bg-img"></div>
 
             <About />
+
+            <div className='parallax juan-studio-img' id="main-bg-img"></div>
+
+            <Skills />
+
+            <div className='parallax juan-studio-img' id="main-bg-img"></div>
+
+            <Contact />
         </div>
     )
 }
